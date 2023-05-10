@@ -1,0 +1,95 @@
+<!-- Ajoutez à ce formulaire :
+
+Un bouton radio permettant à l'utilisateur d'indiquer sa civilité
+
+Une liste à choix multiples lui permettant d'indiquer la liste des langages de programmation qu'il maîtrise 
+(HTML/JS/PHP/Python/SQL)
+
+Une case à cocher permettant d'indiquer qu'il accepte les conditions générales d'utilisation -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<form method="POST" action="action.php">
+  <fieldset>
+    <legend>Formulaire</legend>
+    <div>
+        <input type="radio" id="Mr" name="civilite" value="Mr">
+        <label for="Mr" class="inline-label">Monsieur</label>
+    </div>
+    <div>
+        <input type="radio" id="Mme" name="civilite" value="Mme">
+        <label for="Mme" class="inline-label">Madame</label>
+    </div>
+    <label for="name">Votre nom</label>
+    <input type="text" name="name" id="name" placeholder="Saisissez votre nom">
+    <label for="birthDate">Votre date de naissance</label>
+    <input type="date" name="birthDate" id="birthDate" placeholder="Saisissez votre date de naissance">
+    <label for="comment">Commentaire</label>
+    <textarea rows="4" name="comment" id="comment" placeholder="Ajoutez un commentaire pertinent"></textarea>
+    <label for="email">Votre adresse e-mail</label>
+    <input type="email" name="email" id="email" placeholder="Saisissez votre e-mail">
+    <label for="languages">Langages de programmation maîtrisés</label>
+    <select name="languages" id="languages" multiple>
+        <option value="HTML">HTML</option>
+        <option value="JS">JS</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+        <option value="SQL">SQL"</option>
+    </select>
+    <div>
+    <input type="checkbox" name="tos" id="tos">
+    <label for="tos" class="inline-label">J'accepte les conditions générales d'utilisation</label>
+    </div>
+    <div>
+      <button type="submit" value="Submit">Submit</button>
+      <button type="reset" value="Reset">Reset</button>
+    </div>
+  </fieldset>
+</form>
+</body>
+<style>
+    body {
+        font-family: Calibri, serif;
+    }
+
+    form {
+        max-width: 50%;
+    }
+
+    form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    label.inline-label {
+        display: inline-block;
+    }
+
+    fieldset {
+        border: 1px solid lightgray;
+        background-color: rgba(225, 233, 255, 0.25);
+    }
+
+    legend {
+        font-style: italic;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+
+    form input, form select, form textarea {
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    form input[type="radio"],
+    form input[type="checkbox"],
+    form input[type="submit"] {
+        width: auto;
+    }
+  
+</style>
+</html>
