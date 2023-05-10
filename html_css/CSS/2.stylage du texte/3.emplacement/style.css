@@ -1,0 +1,29 @@
+/* Reprenons notre page d'édition de blog. Pour visualiser correctement les blocs, nous les avons séparés par des marges 
+et une bordure. Mais ceci n'est pas très joli. Nous allons donc définir des espacements de lignes pour les blocs titres 
+et sous-titres.
+
+Modifiez le CSS pour que la hauteur de ligne de ces blocs soit égale à deux fois la taille du texte du bloc. */
+
+.parent {
+    font-size: 16px;
+  }
+
+  .title,.subtitle{
+      line-height: 2em;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+
+  .citation {
+    font-size: 0.8em;
+  }

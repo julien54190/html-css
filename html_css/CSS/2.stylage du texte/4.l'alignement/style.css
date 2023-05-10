@@ -1,0 +1,32 @@
+/* Afin d'améliorer la visibilité pour nos lecteurs, il faut à présent mettre le texte en forme. Vous ferez en sorte que, 
+quelle que soit la taille de votre navigateur, le texte contenu dans les blocs de texte soit toujours aligné et que 
+les mots ne soient pas séparés par des tirets lorsqu'ils vont à la ligne (ce qu'on appelle une « césure »). */
+
+
+.parent {
+    font-size: 16px;
+  }
+
+
+  .title, .subtitle {
+    line-height: 2em;
+  }
+
+
+  .title {
+    font-size: 2em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  .text {
+    font-size: 1em;
+    text-align: justify;
+    word-break: normal;
+  }
+
+  .citation {
+    font-size: 0.8em;
+  }

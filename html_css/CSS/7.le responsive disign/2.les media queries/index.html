@@ -1,0 +1,26 @@
+<!-- L'élément HTML avec la classe first-block se positionne en bas de la page si la largeur de l'écran est inférieure à 760 px.
+
+L'élément HTML avec la classe second-block ne doit faire que 75 % de la taille de son parent lors d'une impression.
+
+L'élément HTML avec la classe third-block devient rouge lorsque la largeur de l'écran fait plus de 1024 px ou lorsque sa 
+hauteur est inférieure à 800 px.
+
+Il est recommandé d'agir sur les différents paramètres d'affichage de la fenêtre du navigateur afin de voir les 
+modifications dynamiques du style grâce aux outils de développement des navigateurs.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application media queries</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p class="first-block">Je passe en bas de la page sur les petits écrans</p>
+    <div>
+      <p class="second-block">Je fais les trois quarts de la taille de mon parent lors d'une impression </p>
+    </div>
+    <p class="third-block">Je deviens rouge sur les grands écrans ou lorsque la hauteur de l'écran est inférieure à 800px</p>
+  </body>
+</html>

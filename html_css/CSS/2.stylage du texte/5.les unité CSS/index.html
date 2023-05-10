@@ -1,0 +1,51 @@
+<!-- Lors du développement d'une interface de gestion de blog, nous souhaitons créer des blocs afin d'uniformiser certaines
+     parties. Chaque bloc a une fonction spécifique :
+
+bloc texte : texte du blog, la taille du texte est égale à la taille du texte du bloc parent
+
+bloc titre : la taille du texte est égale à deux fois la taille du bloc parent
+
+bloc sous-titre : la taille du texte est égale à une fois et demie la taille du bloc parent
+
+bloc citation : la taille du texte est égale à la 0.8 fois la taille du texte du bloc parent
+
+Écrivez le code CSS correspondant au code HTML suivant pour que les classes appliquent les styles demandés aux blocs.
+
+( Les noms des classes sont équivoques) -->
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Blog</title>
+</head>
+
+  <body>
+    <div class="parent">
+      <div class="title">
+        Mon titre de blog
+      </div>
+      <div class="subtitle">
+        Mon sous-titre de blog
+      </div>
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elementum porttitor libero, ut feugiat mi laoreet at. 
+        Sed ut vehicula tortor. Quisque a erat a purus iaculis aliquet. Nulla tristique lobortis dui vel sodales. Aliquam rhoncus mi vitae augue viverra, 
+        et molestie tellus ullamcorper. Nunc nunc est, rutrum vitae ultricies ac, convallis ut dolor. Vivamus fermentum venenatis mollis.
+      </div>
+
+      <div class="citation">
+        "veni vidi vici" Jules Cesar
+      </div>
+
+      <div class="text">
+        Vivamus viverra semper mauris vitae vehicula. Mauris sapien enim, pretium eget tellus sed, facilisis pharetra libero. 
+        Ut ullamcorper erat sapien, at feugiat tellus mattis bibendum. Nulla vestibulum tincidunt odio ut blandit. 
+        Sed vel risus quis metus ultricies porttitor in sit amet quam. Nullam tincidunt leo sit amet ipsum tincidunt dignissim. 
+        Aliquam at est ut mauris viverra pulvinar. Ut eleifend est tortor, eu rutrum ipsum gravida rhoncus.      
+      </div>
+    </div>
+    
+  </body>
+</html>

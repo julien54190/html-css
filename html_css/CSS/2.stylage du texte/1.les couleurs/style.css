@@ -1,0 +1,18 @@
+/* Afin de différencier les éléments de notre blog, nous allons définir une couleur pour chacun d’eux. 
+Les titres seront en rouge, les sous-titres en vert, les textes en bleu, et les citations en orange. */
+
+.title{
+    color: red;
+}
+
+.subtitle{
+    color: green;
+}
+
+.text{
+    color: blue;
+}
+
+.citation{
+    color: orange;
+}

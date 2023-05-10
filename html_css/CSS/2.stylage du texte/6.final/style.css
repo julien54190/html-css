@@ -1,0 +1,23 @@
+.parent{
+    font-size: 16px;
+    text-align: justify;
+}
+
+p{
+    font-size: 1em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    color: aqua;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+    font-size: 18px;
+}

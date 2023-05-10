@@ -1,0 +1,25 @@
+<!-- Lorsque le contenu de l'élément HTML avec la classe second-block chevauche la bordure, sa hauteur change pour 
+    correspondre à 100 % de celle de son parent. 
+
+Lorsque la hauteur des éléments HTML avec les classes first-block et third-block dépasse celle de l'élément HTML avec 
+la classe second-block, celui-ci devient rouge.
+
+Lorsque la hauteur de l'élément HTML avec la classe first-block dépasse celle de l'élément HTML avec la classe 
+second-block, celui-ci disparaît de la page.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Les breakpoints</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="main">
+      <p class="first-block">Je suis un premier bloc de contenu</p>
+      <p class="second-block">Je suis un bloc de contenu et je me comporte mal lorsque la largeur de l'écran diminue </p>
+      <p class="third-block">Je suis un troisième bloc de contenu</p>
+    </div>
+  </body>
+</html>
