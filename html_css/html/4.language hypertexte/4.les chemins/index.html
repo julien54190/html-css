@@ -1,0 +1,60 @@
+<!-- La structure de notre site d'annonces a un peu évolué. En se basant sur le code contenu dans l'archive à 
+    télécharger ci-après, nous allons créer un lien absolu de notre page d'annonce vers la nouvelle page "À propos", 
+    situé dans pages/front-office/a-propos.html
+
+Nous ajouterons également à notre page "À propos" le logo de notre société, "Les pages vertes", situé dans 
+resources/images/les-pages-vertes-logo.png. Nous utiliserons une balise image qui fait appel au fichier par un chemin 
+relatif.
+
+durand-plomberie.zip [zip]
+Si vous n'êtes pas en mesure de télécharger l'archive de code, voici le code de base et l'arborescence à respecter 
+pour le projet. Vous pourrez utiliser l'image de votre choix en lieu et place du logo de Durand plomberie. -->
+
+
+<!-- Fichier index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les pages vertes</title>
+</head>
+<body>
+  <div>
+    <h3>Durand plomberie</h3>
+    Contact :
+    <ul>
+      <li>au <a href="tel:0123456789">0123456789 (non surtaxé)</a></li>
+      <li>ou <a href="mailto:durand-plomberie@example.com">contactez-nous par e-mail</a></li>
+    </ul>
+
+    <p>Retrouvez le descriptif de nos interventions sur <a href="http://durand-plomberie.fr" target="_BLANK">notre site web</a></p>
+  </div>
+</body>
+</html> -->
+
+
+<!-- Fichier index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les pages vertes</title>
+</head>
+<body>
+    <a href="A.propos.html">notre page sur les page verte</a>
+      <div>
+    <h3>Durand plomberie</h3>
+    Contact :
+    <ul>
+      <li>au <a href="tel:0123456789">0123456789 (non surtaxé)</a></li>
+      <li>ou <a href="mailto:durand-plomberie@example.com">contactez-nous par e-mail</a></li>
+    </ul>
+
+    <p>Retrouvez le descriptif de nos interventions sur <a href="http://durand-plomberie.fr" target="_BLANK">notre site web</a></p>
+  </div>
+</body>
+</html>
