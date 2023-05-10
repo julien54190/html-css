@@ -1,0 +1,52 @@
+<!-- Vous allez devoir appliquer le style suivant au tableau ci-dessous :
+
+Sa largeur doit être de 100 %
+
+Ses bordures doivent être noires, pleines, avec une épaisseur de 1 px
+
+Les bordures seront regroupées
+
+Un fond gris doit être appliqué à son en-tête
+
+Chaque cellule doit avoir un padding de 10 px
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>style tableau</title>
+</head>
+<body>
+    <table>
+        <caption>Liste des employés</caption>
+        <thead>
+            <tr>
+                <th>Ville</th>
+                <th>Prénom</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Toulon</td>
+            <td>Paul</td>
+            <td><a href="mailto:paul@mail.fr">paul@mail.fr</a></td>
+    
+        </tr>
+        <tr>
+            <td rowspan="2">Brest</td>
+            <td>Julie</td>
+            <td><a href="mailto:julie@mail.fr">julie@mail.fr</a></td>
+        </tr>
+        <tr>
+            <td>Karine</td>
+            <td><a href="mailto:karine@mail.fr">karine@mail.fr</a></td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
